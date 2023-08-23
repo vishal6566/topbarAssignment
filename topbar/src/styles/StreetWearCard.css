@@ -1,0 +1,17 @@
+.StreetContainer{
+cursor: pointer;
+}
+img{
+    width: 80%;
+    
+}
+
+.StreetTitle{
+    text-align: center;
+    font-size: 16px;
+}
+.StreetPrice{
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}

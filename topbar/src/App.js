@@ -3,6 +3,7 @@ import './App.css';
 import ImageSlider from './components/Carousel';
 import Navbar from './components/Navbar';
 import Sneakers from './components/Sneakers';
+import StreetWear from './components/StreetWear';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 <Navbar />
 <ImageSlider />
 <Sneakers />
+<StreetWear />
    </div>
   );
 }

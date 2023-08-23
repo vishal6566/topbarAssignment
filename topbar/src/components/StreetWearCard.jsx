@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/StreetWearCard.css"
 import { AiOutlineHeart } from "react-icons/ai";
 const StreetWearCard = ({ src, title, price }) => {
   return (
@@ -9,7 +10,7 @@ const StreetWearCard = ({ src, title, price }) => {
       <img src={src} alt="" />
       <p className="StreetTitle">{title}</p>
 
-      <p className="streetPrice">{price}</p>
+      <p className="StreetPrice">Rs.{price}</p>
     </div>
   );
 };

@@ -1,0 +1,28 @@
+.mainStreetContainer{
+ 
+    width: 90%;
+    margin: auto;
+    margin-top: 45px;
+
+}
+.streetHeading>h1{
+   text-align: center;
+}
+.streetContent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    grid-row-gap: 50px;
+    margin-top: 4%;
+    
+}
+.streetBottom{
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    padding:7px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
