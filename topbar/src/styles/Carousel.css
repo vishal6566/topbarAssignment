@@ -1,4 +1,8 @@
-.carousel{
+.carouselContainer{
     width: 90%;
-    border: 1px solid red;
+ 
+    margin: auto;
+    margin-top: 20px;
 }
+
+
