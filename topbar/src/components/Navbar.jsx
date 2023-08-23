@@ -3,12 +3,13 @@ import {  BiSearch} from 'react-icons/bi';
 import {AiOutlineHeart} from "react-icons/ai"
 import {FiShoppingBag} from "react-icons/fi"
 import {MdOutlinePersonOutline,MdKeyboardArrowDown} from "react-icons/md"
+import {RxHamburgerMenu} from "react-icons/rx"
 import "../styles/Navbar.css";
 const Navbar = () => {
   return (
     <div>
       <div className="top">YEEZY MANIA IS LIVE | FREE SHIPPING PAN INDIA</div>
-      <div className="nav">
+      <div className="nav ">
         <div>
             <img src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/store_logo.webp" alt="HYPE FLY Logo"  />
             <div>
@@ -26,6 +27,31 @@ const Navbar = () => {
         <div><AiOutlineHeart /></div>
         <div><FiShoppingBag/></div>
         
+        </div>
+      </div>
+      <div className="smallNav">
+        <div>
+          <div><RxHamburgerMenu /></div>
+          <div>  <BiSearch /></div>
+        </div>
+        <img src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/store_logo.webp" alt="HYPE FLY Logo"  />
+        <div>
+        <div><MdOutlinePersonOutline /></div>
+        <div><AiOutlineHeart /></div>
+        <div><FiShoppingBag/></div>
+        </div>
+      </div>
+      <div className="medNav">
+        <div>
+          <div><RxHamburgerMenu /></div>
+         
+        </div>
+        <img src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/store_logo.webp" alt="HYPE FLY Logo"  />
+        <div>
+        <div>  <BiSearch /></div>
+        <div><MdOutlinePersonOutline /></div>
+        <div><AiOutlineHeart /></div>
+        <div><FiShoppingBag/></div>
         </div>
       </div>
     </div>

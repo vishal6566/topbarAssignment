@@ -126,3 +126,48 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+/* small screen */
+@media screen and (min-width: 100px) and (max-width: 770px){
+    .footerContainer{
+
+        display: flex;
+        flex-direction: column;
+       
+       
+    }
+    .footerContainer>div{
+        width: 90%;
+     
+        margin-left: 30px;
+    }
+    /* first div */
+.footerContainer>div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+.contactInfo{
+   
+    margin: 30px 0px;
+    text-align: start;
+}
+/* second div */
+.footerContainer>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.topbar{
+
+    color: white;
+   text-align: center;
+    font-size: 14px;
+    padding-bottom: 50px ;
+    padding-top: 20px;
+}
+}

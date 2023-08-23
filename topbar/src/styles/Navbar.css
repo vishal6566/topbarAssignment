@@ -15,6 +15,7 @@
   margin-top: 24px;
 }
 
+
 .nav > div:first-child {
   width: 89%;
   
@@ -64,4 +65,103 @@
 
 .nav>div:last-child>div{
     cursor: pointer;
+}
+.smallNav{
+  width: 90%;
+  margin: auto;
+  margin-top: 24px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.medNav{
+  width: 90%;
+  margin: auto;
+  margin-top: 24px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+/* medium screen */
+@media screen and (min-width: 991px) and (max-width: 1250px){
+  .nav {
+    width: 90%;
+    margin: auto;
+    display: none;
+    margin-top: 24px;
+  }
+  .smallNav{
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .medNav{
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .medNav>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .medNav>img{
+    width: 30%;
+    
+  }
+  .medNav>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 100px) and (max-width: 990px){
+  .nav {
+    width: 90%;
+    margin: auto;
+    display: none;
+    margin-top: 24px;
+  }
+  .medNav{
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .smallNav{
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .smallNav>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .smallNav>img{
+    width: 30%;
+    
+  }
+  .smallNav>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
 }

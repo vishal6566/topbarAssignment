@@ -9,3 +9,19 @@
     width: 30%;
     text-align: center;
 }
+/* small screen */
+@media screen and (min-width: 100px) and (max-width: 770px){
+    .bottomContainer{
+  
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 30px 0px;
+        gap: 50px;
+    }
+    .bottomContainer>div{
+     
+        width: 90%;
+        text-align: center;
+    }
+}

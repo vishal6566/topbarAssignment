@@ -28,3 +28,22 @@ object-fit: cover;
     width: 100%;
     object-fit: cover;  
 }
+
+/* small screen */
+
+@media screen and (min-width: 100px) and (max-width: 770px){
+    .bannerContainer>div:last-child{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    
+    .bannerContainer>div:last-child>div>img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;  
+    }
+}
