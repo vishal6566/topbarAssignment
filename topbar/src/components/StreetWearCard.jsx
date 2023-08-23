@@ -10,7 +10,7 @@ const StreetWearCard = ({ src, title, price }) => {
       <img src={src} alt="" />
       <p className="StreetTitle">{title}</p>
 
-      <p className="StreetPrice">Rs.{price}</p>
+      <p className="StreetPrice">from Rs.{price}</p>
     </div>
   );
 };

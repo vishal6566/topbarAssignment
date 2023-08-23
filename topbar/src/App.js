@@ -1,5 +1,6 @@
 
 import './App.css';
+import Accessories from './components/Accessories';
 import ImageSlider from './components/Carousel';
 import Navbar from './components/Navbar';
 import Sneakers from './components/Sneakers';
@@ -12,6 +13,7 @@ function App() {
 <ImageSlider />
 <Sneakers />
 <StreetWear />
+<Accessories />
    </div>
   );
 }
