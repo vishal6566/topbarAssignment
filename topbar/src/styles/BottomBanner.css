@@ -1,0 +1,30 @@
+.bannerContainer{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+}
+.bannerContainer>div:first-child{
+
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.bannerContainer>div:first-child>img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.bannerContainer>div:last-child{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.bannerContainer>div:last-child>div>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+}

@@ -1,0 +1,11 @@
+.bottomContainer{
+  
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.bottomContainer>div{
+ 
+    width: 30%;
+    text-align: center;
+}

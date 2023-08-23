@@ -1,0 +1,128 @@
+.footerContainerMain{
+    background-color: #1a202c;
+}
+
+.footerContainer{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.footerContainer>div{
+    width: 30%;
+ 
+    margin-top: 40px;
+}
+/* first div */
+.footerContainer>div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footerContainer>div:first-child>img{
+    width: 35%;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.contactInfo{
+   
+    margin: 30px 0px;
+    text-align: center;
+}
+.contactInfo>p:first-child{
+    color: #256fd4;
+    font-size: 20px;
+}
+.contactInfo>p:last-child{
+    color: white;
+    margin-top: 10px;
+}
+
+.contactInfo>p:last-child:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   
+    
+}
+/* second div */
+.footerContainer>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContainer>div:nth-child(2)>div{
+    width: 45%;
+    text-align:start;
+}
+.footerContainer>div:nth-child(2)>div>p:first-child{
+    color: #256fd4 ;
+    font-size: 20px;
+}
+
+.options{
+    color: white;
+    margin: 7px 0px;
+}
+.options:hover{
+    cursor: pointer;
+    text-decoration:  underline;
+}
+
+/* last div */
+
+
+.footerContainer>div:last-child>div>p{
+    color: #256fd4 ;
+    font-size: 20px;
+}
+.footerContainer>div:last-child>div>div{
+    
+    margin-top: 20px;
+}
+.footerContainer>div:last-child>div>div>input{
+    background: transparent;
+    height: 30px;
+}
+
+.footerContainer>div:last-child>div>div>div{
+    display: inline;
+    padding: 5px ;
+   border-radius: 20%;
+    background-color: black;
+    margin-left: 10px;
+    
+}
+.footerContainer>div:last-child>div>div>div:hover{
+    cursor: pointer;
+    background-color: #12161e;
+}
+.account{
+    margin-top: 20px;
+}
+.account>div{
+    display: flex;
+    gap:30px
+
+}
+.account>div:hover{
+    cursor: pointer;
+}
+.topbar{
+
+    color: white;
+   text-align: center;
+    font-size: 14px;
+    padding-bottom: 30px ;
+}
+.topbar:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
