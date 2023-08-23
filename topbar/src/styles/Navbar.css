@@ -1,0 +1,66 @@
+.top {
+  width: full;
+  background-color: #1a202c;
+  color: rgb(233, 231, 231);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 9px 0px;
+}
+
+.nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 24px;
+}
+
+.nav > div:first-child {
+  width: 89%;
+  
+  display: flex;
+}
+
+.nav > div > img {
+  width: 14%;
+}
+
+.nav > div:first-child > div {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12%;
+  gap: 35px;
+}
+.nav > div:first-child > div > div {
+  color: #1a202c;
+}
+
+.nav > div:first-child > div > div:first-child {
+  font-weight: 700;
+  font-size: 15px;
+}
+.nav > div:first-child > div > div:first-child:hover {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.nav > div:first-child > div > div:hover {
+  cursor: pointer;
+  color: rgb(72, 72, 248);
+}
+
+.nav>div:last-child{
+ 
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav>div:last-child>div{
+    cursor: pointer;
+}
