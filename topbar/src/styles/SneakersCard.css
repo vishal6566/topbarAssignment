@@ -1,0 +1,49 @@
+.SneakersContainer{
+cursor: pointer;
+   
+}
+img{
+    width: 80%;
+    
+}
+.title{
+    text-align: center;
+}
+
+.SneakersTop{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.SneakersTop>div:last-child{
+    background-color: #e53e3e;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.price-container {
+    position: relative;
+    display: inline-block;
+   
+    margin-left: 20%;
+    margin-top: 15px;
+    font-size:12px ;
+  }
+  
+  .original-price {
+   
+    position: absolute;
+    bottom: 0;
+    color: #f00; 
+    text-decoration: line-through;
+  
+  }
+  
+  .sale-price {
+   margin-right: 10px;
+    color: #888; 
+    
+   
+  }
