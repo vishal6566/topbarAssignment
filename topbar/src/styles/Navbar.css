@@ -28,6 +28,7 @@
 
 .nav > div > img {
   width: 14%;
+  cursor: pointer;
 }
 
 .nav > div:first-child > div {
@@ -176,6 +177,9 @@
     align-items: center;
     gap: 10px;
   }
+  
+  
+  
 }
 
 
@@ -213,6 +217,7 @@
   }
   .sneakersSub-option>div:hover{
     background-color: rgba(163, 220, 250, 0.993);
+    border-radius: 5px;
     
   }
   .sneakersSub-option>div:hover>p:first-child{
