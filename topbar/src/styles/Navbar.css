@@ -13,6 +13,10 @@
   margin: auto;
   display: flex;
   margin-top: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 
@@ -105,6 +109,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
   }
   .medNav>div:first-child{
     display: flex;
@@ -147,6 +155,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
   }
   .smallNav>div:first-child{
     display: flex;
@@ -165,3 +177,55 @@
     gap: 10px;
   }
 }
+
+
+/* sneakers sub otions */
+
+
+.sneakerOption{
+  position: relative;
+  }
+  .sneakersSub-option{
+  width: 300px;
+ 
+  background-color: white;
+  position: absolute;
+  display: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .sneakerOption:hover .sneakersSub-option{
+      display: block;
+  
+  }
+
+  .sneakersSub-option>div{
+
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .sneakersSub-option>div:hover{
+    background-color: rgba(163, 220, 250, 0.993);
+    
+  }
+  .sneakersSub-option>div:hover>p:first-child{
+    color: blue;
+  }
+  .sneakersSub-option>div:hover>p:last-child{
+    color:white;
+  }
+  .sneakersSub-option>div>p:first-child{
+    color: black;
+    font-size: 16px;
+  }
+  .sneakersSub-option>div>p:last-child{
+    color: gray;
+    font-size: 12px;
+  }

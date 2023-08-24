@@ -73,7 +73,7 @@ const StreetWear = () => {
   return (
     <div className='mainStreetContainer'>
     <div className='streetHeading'>
-        <h1>SNEAKERS</h1>
+        <h1>STREETWEAR</h1>
     </div>
     <div className='streetContent'>
       
