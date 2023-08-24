@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 50px;
    
 }
 .footerContainer>div:first-child>img{
@@ -56,6 +57,7 @@
 .footerContainer>div:nth-child(2){
     display: flex;
     justify-content: space-between;
+    line-height: 40px;
 }
 
 .footerContainer>div:nth-child(2)>div{
@@ -82,6 +84,7 @@
 .footerContainer>div:last-child>div>p{
     color: #256fd4 ;
     font-size: 20px;
+    line-height: 50px;
 }
 .footerContainer>div:last-child>div>div{
     
@@ -90,6 +93,7 @@
 .footerContainer>div:last-child>div>div>input{
     background: transparent;
     height: 30px;
+    width: 220px;
 }
 
 .footerContainer>div:last-child>div>div>div{
@@ -116,7 +120,7 @@
     cursor: pointer;
 }
 .topbar{
-
+line-height: 50px;
     color: white;
    text-align: center;
     font-size: 14px;
@@ -127,47 +131,114 @@
     text-decoration: underline;
 }
 
+.mobFooterContainer{
+    display: none;
+}
 
 /* small screen */
-@media screen and (min-width: 100px) and (max-width: 770px){
-    .footerContainer{
+@media screen and (min-width: 100px) and (max-width: 600px){
+    .footerContainerMain{
+        display: none;
+    }
+    
+.mobFooterContainer{
+    display: grid;
+    background-color: #1a202c;
+    grid-template-columns: repeat(2,1fr);
 
-        display: flex;
-        flex-direction: column;
-       
-       
-    }
-    .footerContainer>div{
-        width: 90%;
-     
-        margin-left: 30px;
-    }
-    /* first div */
-.footerContainer>div:first-child{
+}
+.mobFooterContainer>div{
+   
+    line-height: 40px;
+    margin-left: 10px;
+}
+.mobFooterContainer>div:first-child>img{
+width: 80%;
+}
+.mobIcons{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.mobContactInfo{
+   
+    margin: 20px 0px;
    
 }
-.contactInfo{
-   
-    margin: 30px 0px;
-    text-align: start;
+.mobContactInfo>p:first-child{
+    color: #256fd4;
+    font-size: 16px;
 }
-/* second div */
-.footerContainer>div:nth-child(2){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-}
-.topbar{
-
+.mobContactInfo>p:last-child{
     color: white;
-   text-align: center;
+   
     font-size: 14px;
-    padding-bottom: 50px ;
-    padding-top: 20px;
 }
+
+.mobContactInfo>p:last-child:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   
+    
+}
+.mobFooterContainer>div:nth-child(2){
+    color: #256fd4 ;
+    font-size: 18px;
+}
+.mobFooterContainer>div:nth-child(3){
+    color: #256fd4 ;
+    font-size: 18px;
+}
+
+.moboptions{
+    color: white;
+    margin: 7px 0px;
+    font-size: 14px;
+}
+.moboptions:hover{
+    cursor: pointer;
+    text-decoration:  underline;
+}
+.mobaccount{
+    margin-top: 20px;
+}
+.mobaccount>div{
+    display: flex;
+    gap:30px
+
+}
+.mobaccount>div:hover{
+    cursor: pointer;
+}
+.mobFooterContainer>div:last-child>div>p{
+    color: #256fd4 ;
+    font-size: 20px;
+    line-height: 50px;
+}
+.mobFooterContainer>div:last-child>div>div{
+    
+    margin-top: 20px;
+}
+.mobFooterContainer>div:last-child>div>div>input{
+    background: transparent;
+    height: 30px;
+    width: 150px;
+}
+
+.mobFooterContainer>div:last-child>div>div>div{
+  width: fit-content;
+    padding: 2px 5px ;
+   border-radius: 20%;
+    background-color: black;
+    margin-right:25%;
+    
+    
+}
+.mobFooterContainer>div:last-child>div>div>div:hover{
+    cursor: pointer;
+    background-color: #12161e;
+}
+
+
 }

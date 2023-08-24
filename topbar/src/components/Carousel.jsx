@@ -6,7 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const ImageSlider = () => {
   return (
     <div className='carouselContainer'>
-        <Carousel autoPlay interval={5000} infiniteLoop showThumbs={false} showStatus={false}>
+        <Carousel autoPlay interval={2000} infiniteLoop showThumbs={false} showStatus={false}>
       <div>
         <img src="https://hypefly-assets.s3.amazonaws.com/media/carousel_images/YEEZY_MANIA_1.jpg" alt="Image 1" />
       </div>

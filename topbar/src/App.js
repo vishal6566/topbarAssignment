@@ -6,6 +6,7 @@ import BottomBanner from './components/BottomBanner';
 import ImageSlider from './components/Carousel';
 import Footer from './components/Footer';
 import MediumNav from './components/MediumNav';
+import MobFooter from './components/MobFooter';
 import Navbar from './components/Navbar';
 import SmallNav from './components/SmallNav';
 import Sneakers from './components/Sneakers';
@@ -26,6 +27,7 @@ function App() {
 <BottomBanner />
 <Bottom />
 <Footer />
+<MobFooter />
    </div>
   );
 }
